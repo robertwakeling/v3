@@ -202,6 +202,7 @@
 		D4D2226815C5F8AC00F4838E /* ElectricalSafetyThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D2226715C5F8AC00F4838E /* ElectricalSafetyThreeViewController.m */; };
 		D4DB985A15910BF400A60F23 /* Specialised3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4DB985915910BF400A60F23 /* Specialised3.png */; };
 		D4DB985E15912EDA00A60F23 /* SpecialisedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DB985D15912EDA00A60F23 /* SpecialisedViewController.m */; };
+		D4E1712215D17EAD0095AFE2 /* Rand.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4E1712115D17EAD0095AFE2 /* Rand.plist */; };
 		D4E5711F153F14B800BE6D65 /* units.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E5711E153F14B800BE6D65 /* units.m */; };
 		D4F3EC2C15A7992900116514 /* AcidAlkaliReaction3-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D4F3EC2B15A7992900116514 /* AcidAlkaliReaction3-2.png */; };
 		D4F3EC2F15A79BA400116514 /* NeutralisationThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F3EC2E15A79BA400116514 /* NeutralisationThreeViewController.m */; };
@@ -493,6 +494,7 @@
 		D4DB985915910BF400A60F23 /* Specialised3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Specialised3.png; sourceTree = "<group>"; };
 		D4DB985C15912EDA00A60F23 /* SpecialisedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialisedViewController.h; sourceTree = "<group>"; };
 		D4DB985D15912EDA00A60F23 /* SpecialisedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialisedViewController.m; sourceTree = "<group>"; };
+		D4E1712115D17EAD0095AFE2 /* Rand.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Rand.plist; sourceTree = "<group>"; };
 		D4E5711D153F14B800BE6D65 /* units.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = units.h; path = ../units.h; sourceTree = "<group>"; };
 		D4E5711E153F14B800BE6D65 /* units.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = units.m; path = ../units.m; sourceTree = "<group>"; };
 		D4F3EC2B15A7992900116514 /* AcidAlkaliReaction3-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AcidAlkaliReaction3-2.png"; sourceTree = "<group>"; };
@@ -1166,6 +1168,7 @@
 				D4A2EB1B15221DE1009BD22E /* ScienceAppDelegate.h */,
 				D4A2EB1C15221DE1009BD22E /* ScienceAppDelegate.m */,
 				D4A2EB1E15221DE1009BD22E /* MainStoryboard.storyboard */,
+				D4E1712115D17EAD0095AFE2 /* Rand.plist */,
 				D406FE0A1598E26100410D39 /* DefaultLabel.h */,
 				D406FE0B1598E26100410D39 /* DefaultLabel.m */,
 				D4CB3CE31598A2B300FDB9E2 /* Default.m */,
@@ -1728,6 +1731,7 @@
 				D4B3188915C833D70040CEB6 /* EarthSun3.png in Resources */,
 				D4B3188F15C839B40040CEB6 /* Moon3.png in Resources */,
 				D4B3189815C845B10040CEB6 /* Beyond3.png in Resources */,
+				D4E1712215D17EAD0095AFE2 /* Rand.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
