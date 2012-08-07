@@ -131,7 +131,7 @@
                     </tableView>
                 </tableViewController>
             </objects>
-            <point key="canvasLocation" x="2629" y="-109"/>
+            <point key="canvasLocation" x="2565" y="-101"/>
         </scene>
         <!--View Controller - Different Cell Types-->
         <scene sceneID="Bj2-FQ-C8a">
@@ -8696,6 +8696,12 @@
         </class>
         <class className="BeyondThreeViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/BeyondThreeViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="galaxy" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="milkyWay" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="scoreLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="universe" candidateClass="UITextField"/>
+            </relationships>
         </class>
         <class className="BurningFuelsThreeViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/BurningFuelsThreeViewController.h"/>
