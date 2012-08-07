@@ -218,17 +218,13 @@
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Periodic Table Background.png" id="5X2-DJ-5ER">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Life Cycle.png" id="has-Lq-ZXV">
-                                <rect key="frame" x="49" y="29" width="671" height="929"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.98823535442352295" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="backgroundColor" red="0.91372555494308472" green="0.95686280727386475" blue="0.97254908084869385" alpha="1" colorSpace="deviceRGB"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="The stages of the human life cycle.  Show the answers and when you've learnt each stage, click the save button." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="rTm-3e-1zR">
-                                <rect key="frame" x="49" y="46" width="671" height="61"/>
+                                <rect key="frame" x="49" y="0.0" width="671" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.93725496530532837" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -296,7 +292,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="transitionToViewController" destination="aut-sn-MeT" eventType="touchUpInside" id="ERj-T3-pyK"/>
+                                    <segue destination="92t-Pn-QYb" kind="push" id="Che-HU-6wN"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -312,6 +308,93 @@
                 </viewController>
             </objects>
             <point key="canvasLocation" x="4791" y="1418"/>
+        </scene>
+        <!--Cycle Three Assessment View Controller-->
+        <scene sceneID="1k5-dP-cye">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GFz-kn-GCl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="92t-Pn-QYb" customClass="CycleThreeAssessmentViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AF7-mu-oi2">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Life Cycle.png" id="M97-NJ-TEp">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.91372555489999996" green="0.95686280729999995" blue="0.97254908080000002" alpha="1" colorSpace="deviceRGB"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Fill in the blanks below!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="0Cd-9h-D24">
+                                <rect key="frame" x="49" y="0.0" width="671" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <color key="textColor" red="0.95294123888015747" green="0.12941177189350128" blue="0.090196080505847931" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="faR-HQ-Xi1">
+                                <rect key="frame" x="304" y="700" width="160" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.47058826684951782" green="0.0078431377187371254" blue="0.9960784912109375" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <action selector="checkAnswers" destination="92t-Pn-QYb" eventType="editingDidEnd" id="qNB-mn-s7U"/>
+                                    <outlet property="delegate" destination="92t-Pn-QYb" id="pb5-fr-T3h"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="74R-sf-W5g">
+                                <rect key="frame" x="572" y="547" width="132" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.050980396568775177" green="0.027450982481241226" blue="0.96078437566757202" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <action selector="checkAnswers" destination="92t-Pn-QYb" eventType="editingDidEnd" id="IgN-nT-uLa"/>
+                                    <outlet property="delegate" destination="92t-Pn-QYb" id="ooz-sN-8ZG"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="1DW-Lz-fCD">
+                                <rect key="frame" x="457" y="254" width="154" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.9490196704864502" green="0.49411767721176147" blue="0.031372550874948502" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <action selector="checkAnswers" destination="92t-Pn-QYb" eventType="editingDidEnd" id="W7a-rZ-q90"/>
+                                    <outlet property="delegate" destination="92t-Pn-QYb" id="R29-wv-yuc"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="YQu-hp-7fX">
+                                <rect key="frame" x="96" y="223" width="132" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.090196080505847931" green="0.20000001788139343" blue="0.45098042488098145" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <action selector="checkAnswers" destination="92t-Pn-QYb" eventType="editingDidEnd" id="yik-L5-oXv"/>
+                                    <outlet property="delegate" destination="92t-Pn-QYb" id="NVr-0R-kIh"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="9Ma-qz-OVl">
+                                <rect key="frame" x="335" y="481" width="98" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="8MN-jY-AMU"/>
+                    <connections>
+                        <outlet property="adolescence" destination="1DW-Lz-fCD" id="O4R-QI-pec"/>
+                        <outlet property="adulthood" destination="YQu-hp-7fX" id="6jV-Pf-lqZ"/>
+                        <outlet property="birth" destination="74R-sf-W5g" id="we7-6N-rBb"/>
+                        <outlet property="fertilisation" destination="faR-HQ-Xi1" id="kLY-y1-h5d"/>
+                        <outlet property="scoreLabel" destination="9Ma-qz-OVl" id="hOw-D8-Q4y"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="5603" y="1418"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="QWg-iO-0hA">
@@ -1611,33 +1694,29 @@
             </objects>
             <point key="canvasLocation" x="4791" y="-826"/>
         </scene>
-        <!--Cycle Three View Controller-->
+        <!--View Controller-->
         <scene sceneID="oUh-Ks-hV5">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rQT-tX-HiZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController storyboardIdentifier="Cycle3" id="4Kz-rc-1ky" customClass="CycleThreeViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Cycle3" id="4Kz-rc-1ky" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3Mh-vF-PUF">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Periodic Table Background.png" id="gWn-df-LS8">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Cycle3.png" id="WJg-Lm-oh9">
-                                <rect key="frame" x="49" y="37" width="671" height="929"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.98823535439999999" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="backgroundColor" red="0.9647059440612793" green="0.94509810209274292" blue="0.86666673421859741" alpha="1" colorSpace="deviceRGB"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="ClF-b5-MPe">
-                                <rect key="frame" x="49" y="37" width="671" height="169"/>
+                                <rect key="frame" x="6" y="0.0" width="757" height="169"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">This picture is part of the female reproductive system.  Every 28 days, an egg is released from an ovary (shaded pink).  If fertilised by a sperm cell, it may develop in to a foetus.  Usually, however, the unfertilised egg leaves the uterus together with the uterus lining.  This cycle is called the menstrual cycle or 'period'.</string>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
                                 <color key="textColor" red="0.015686275437474251" green="0.0" blue="0.92549026012420654" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" id="zDG-LP-xQZ" customClass="SaveButton">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" id="zDG-LP-xQZ">
                                 <rect key="frame" x="526" y="874" width="183" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="18"/>
@@ -1649,7 +1728,6 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="transitionToNewViewController" destination="4Kz-rc-1ky" eventType="touchUpInside" id="gBN-QF-1ZO"/>
                                     <segue destination="tHY-ad-TDc" kind="push" id="g5c-vf-veC"/>
                                 </connections>
                             </button>
@@ -1660,17 +1738,86 @@
             </objects>
             <point key="canvasLocation" x="4787" y="302"/>
         </scene>
-        <!--View Controller-->
+        <!--Cycle Three View Controller-->
         <scene sceneID="zbh-fa-wcP">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TXX-QG-q20" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="tHY-ad-TDc" sceneMemberID="viewController">
+                <viewController id="tHY-ad-TDc" customClass="CycleThreeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="T9X-10-Kh1">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Cycle3.png" id="27G-W6-81h">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96470594409999999" green="0.9450981021" blue="0.86666673419999996" alpha="1" colorSpace="deviceRGB"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Fill in the blanks below!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="vhR-HS-vh9">
+                                <rect key="frame" x="239" y="0.0" width="290" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <color key="textColor" red="0.55294120311737061" green="0.054901964962482452" blue="0.87843143939971924" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Every" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Uaf-c4-AfW">
+                                <rect key="frame" x="80" y="63" width="89" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <color key="textColor" red="0.99215692281723022" green="0.0078431377187371254" blue="0.59215688705444336" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="cycle." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="J1O-D2-hXa">
+                                <rect key="frame" x="286" y="110" width="89" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <color key="textColor" red="0.99215692280000001" green="0.0078431377190000002" blue="0.59215688710000003" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Lk5-uC-7ST">
+                                <rect key="frame" x="536" y="124" width="89" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <color key="textColor" red="0.99215692280000001" green="0.0078431377190000002" blue="0.59215688710000003" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="or so, there is a cycle called the" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="qAf-In-mSA">
+                                <rect key="frame" x="266" y="63" width="423" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <color key="textColor" red="0.99215692281723022" green="0.0078431377187371254" blue="0.59215688705444336" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="h3v-aO-eeT">
+                                <rect key="frame" x="177" y="70" width="97" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.99215692281723022" green="0.0039215688593685627" blue="0.59607845544815063" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="checkAnswers" destination="tHY-ad-TDc" eventType="editingDidEnd" id="XcC-Nn-O5P"/>
+                                    <outlet property="delegate" destination="tHY-ad-TDc" id="6PA-kw-bAp"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="rME-4R-zWp">
+                                <rect key="frame" x="88" y="117" width="178" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.99215692280000001" green="0.0039215688589999999" blue="0.59607845540000004" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="checkAnswers" destination="tHY-ad-TDc" eventType="editingDidEnd" id="2wh-Ss-wfp"/>
+                                    <outlet property="delegate" destination="tHY-ad-TDc" id="iCb-He-g2T"/>
+                                </connections>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="v7T-V7-mZj"/>
+                    <connections>
+                        <outlet property="menstrual" destination="rME-4R-zWp" id="9KJ-Kh-tnF"/>
+                        <outlet property="scoreLabel" destination="Lk5-uC-7ST" id="9uD-Ql-pMZ"/>
+                        <outlet property="twentyEight" destination="h3v-aO-eeT" id="7Rf-gC-kdH"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="5610" y="302"/>
@@ -8853,8 +9000,24 @@
                 <relationship kind="outlet" name="scoreLabel" candidateClass="UILabel"/>
             </relationships>
         </class>
+        <class className="CycleThreeAssessmentViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CycleThreeAssessmentViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="adolescence" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="adulthood" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="birth" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="fertilisation" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="scoreLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
         <class className="CycleThreeViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CycleThreeViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="checkAnswers"/>
+                <relationship kind="outlet" name="menstrual" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="scoreLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="twentyEight" candidateClass="UITextField"/>
+            </relationships>
         </class>
         <class className="Default" superclassName="UILabel">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/Default.h"/>
@@ -9219,6 +9382,11 @@
         </class>
         <class className="TextfieldCheckerViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/TextfieldCheckerViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="buttonClear::" candidateClass="UITextField"/>
+                <relationship kind="action" name="checkAnswers:" candidateClass="UITextField"/>
+                <relationship kind="action" name="secondSaveUserEntries:" candidateClass="UITextField"/>
+            </relationships>
         </class>
         <class className="TypesThreeViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/TypesThreeViewController.h"/>

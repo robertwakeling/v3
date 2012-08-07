@@ -9,6 +9,14 @@
 #import <UIKit/UIKit.h>
 #import "Tester.h"
 
-@interface CycleThreeViewController : UIViewController
+@interface CycleThreeViewController : UIViewController <UITextFieldDelegate, UIAlertViewDelegate>
+{
+    int theScore;
+}
+-(IBAction)checkAnswers;
+
+@property (weak, nonatomic) IBOutlet UITextField *twentyEight;
+@property (weak, nonatomic) IBOutlet UITextField *menstrual;
+@property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
 
 @end
