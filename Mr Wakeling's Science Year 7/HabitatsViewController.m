@@ -52,7 +52,14 @@
     }
 }
 
+-(IBAction)transitionToNewController:(id)sender
+{
+    Tester *detail = [self.storyboard instantiateViewControllerWithIdentifier:@"Overall1"];
+    
+    [self.navigationController pushViewController:detail animated:YES];
 
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"Habitat3" object:self];
+}
 
 - (void)viewDidUnload
 {
