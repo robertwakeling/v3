@@ -8586,22 +8586,6 @@
                                     <outlet property="delegate" destination="Koa-wa-wP2" id="bsk-Mw-3f0"/>
                                 </connections>
                             </tableView>
-                            <progressView opaque="NO" contentMode="scaleToFill" id="4hj-qE-zWO">
-                                <rect key="frame" x="137" y="121" width="536" height="9"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </progressView>
-                            <progressView opaque="NO" contentMode="scaleToFill" progress="0.5" id="hG7-wh-ei1">
-                                <rect key="frame" x="137" y="68" width="536" height="9"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </progressView>
-                            <progressView opaque="NO" contentMode="scaleToFill" progress="0.5" id="mMb-sW-TQm">
-                                <rect key="frame" x="137" y="94" width="536" height="9"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </progressView>
-                            <progressView opaque="NO" contentMode="scaleToFill" progress="0.5" id="0ON-DP-omp">
-                                <rect key="frame" x="137" y="41" width="536" height="9"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </progressView>
                             <progressView opaque="NO" contentMode="scaleToFill" progress="0.5" id="OYR-Da-wfC">
                                 <rect key="frame" x="137" y="13" width="536" height="9"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -8613,64 +8597,8 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="4" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="WiD-UC-beq">
-                                <rect key="frame" x="39" y="35" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="5" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="r9f-2U-UB4">
-                                <rect key="frame" x="39" y="62" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="6" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="P6X-ND-em1">
-                                <rect key="frame" x="39" y="88" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Overall" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="WIK-Xf-ObU">
-                                <rect key="frame" x="39" y="115" width="54" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="U7P-qm-0wU">
                                 <rect key="frame" x="681" y="7" width="67" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="vVW-eD-v5C">
-                                <rect key="frame" x="706" y="33" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="SfA-lL-HhQ">
-                                <rect key="frame" x="706" y="62" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="WqV-yI-x8V">
-                                <rect key="frame" x="706" y="88" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="RAO-Al-Gkq">
-                                <rect key="frame" x="694" y="115" width="54" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -8702,16 +8630,8 @@
                     </navigationItem>
                     <connections>
                         <outlet property="finalOverallLevel" destination="FfX-Jf-cBm" id="Bbl-vm-WFL"/>
-                        <outlet property="five" destination="SfA-lL-HhQ" id="cxt-ag-wSR"/>
-                        <outlet property="four" destination="vVW-eD-v5C" id="Df1-vf-qIF"/>
-                        <outlet property="levelFiveProgress" destination="hG7-wh-ei1" id="Yrr-ia-cDT"/>
-                        <outlet property="levelFourProgress" destination="0ON-DP-omp" id="iZb-lq-Cda"/>
-                        <outlet property="levelSixProgress" destination="mMb-sW-TQm" id="sfT-RA-G7i"/>
                         <outlet property="levelThreeProgress" destination="OYR-Da-wfC" id="yKb-VW-zTl"/>
                         <outlet property="myTableView" destination="tam-Tx-rX1" id="Qtr-gP-m6Z"/>
-                        <outlet property="overall" destination="RAO-Al-Gkq" id="Fsu-RQ-GpF"/>
-                        <outlet property="overallProgress" destination="4hj-qE-zWO" id="ZSQ-SU-SD5"/>
-                        <outlet property="six" destination="WqV-yI-x8V" id="UxX-cM-N9A"/>
                         <outlet property="three" destination="U7P-qm-0wU" id="d2K-a4-pz2"/>
                     </connections>
                 </viewController>
