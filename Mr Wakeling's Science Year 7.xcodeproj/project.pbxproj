@@ -52,6 +52,7 @@
 		D40D2C9515A0F7B1001BBC07 /* Acids3Hydroxide2-06.png in Resources */ = {isa = PBXBuildFile; fileRef = D40D2C9415A0F7B1001BBC07 /* Acids3Hydroxide2-06.png */; };
 		D40D2C9715A0F83C001BBC07 /* Acids3Bleach2-07.png in Resources */ = {isa = PBXBuildFile; fileRef = D40D2C9615A0F83C001BBC07 /* Acids3Bleach2-07.png */; };
 		D40D2C9915A0F92B001BBC07 /* Acids3Background-08.png in Resources */ = {isa = PBXBuildFile; fileRef = D40D2C9815A0F92B001BBC07 /* Acids3Background-08.png */; };
+		D411F8EE15D3C01900733912 /* Growth3-01.png in Resources */ = {isa = PBXBuildFile; fileRef = D411F8ED15D3C01900733912 /* Growth3-01.png */; };
 		D416FB531587E24E0068F376 /* MagnificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D416FB521587E24E0068F376 /* MagnificationViewController.m */; };
 		D416FB5A1587EB160068F376 /* Ruler.png in Resources */ = {isa = PBXBuildFile; fileRef = D416FB591587EB160068F376 /* Ruler.png */; };
 		D431A8E9152795E500D0D161 /* Microscope.png in Resources */ = {isa = PBXBuildFile; fileRef = D431A8E8152795E500D0D161 /* Microscope.png */; };
@@ -181,7 +182,6 @@
 		D4C27A5415C747E4005AE12F /* UpthrustThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C27A5315C747E4005AE12F /* UpthrustThreeViewController.m */; };
 		D4C27A5615C74FB5005AE12F /* Motion3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4C27A5515C74FB5005AE12F /* Motion3.png */; };
 		D4C27A5A15C751AD005AE12F /* MotionThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C27A5915C751AD005AE12F /* MotionThreeViewController.m */; };
-		D4CB3CCF159876F200FDB9E2 /* Growth3.3-01.png in Resources */ = {isa = PBXBuildFile; fileRef = D4CB3CCE159876F200FDB9E2 /* Growth3.3-01.png */; };
 		D4CB3CD2159882A400FDB9E2 /* Types3-02.png in Resources */ = {isa = PBXBuildFile; fileRef = D4CB3CD1159882A400FDB9E2 /* Types3-02.png */; };
 		D4CB3CDC1598842800FDB9E2 /* TypesThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB3CDB1598842800FDB9E2 /* TypesThreeViewController.m */; };
 		D4CB3CDE1598A16900FDB9E2 /* _Repro3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4CB3CDD1598A16900FDB9E2 /* _Repro3.png */; };
@@ -274,6 +274,7 @@
 		D40D2C9415A0F7B1001BBC07 /* Acids3Hydroxide2-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Acids3Hydroxide2-06.png"; sourceTree = "<group>"; };
 		D40D2C9615A0F83C001BBC07 /* Acids3Bleach2-07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Acids3Bleach2-07.png"; sourceTree = "<group>"; };
 		D40D2C9815A0F92B001BBC07 /* Acids3Background-08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Acids3Background-08.png"; sourceTree = "<group>"; };
+		D411F8ED15D3C01900733912 /* Growth3-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Growth3-01.png"; sourceTree = "<group>"; };
 		D416FB511587E24E0068F376 /* MagnificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagnificationViewController.h; sourceTree = "<group>"; };
 		D416FB521587E24E0068F376 /* MagnificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagnificationViewController.m; sourceTree = "<group>"; };
 		D416FB591587EB160068F376 /* Ruler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ruler.png; sourceTree = "<group>"; };
@@ -465,7 +466,6 @@
 		D4C27A5515C74FB5005AE12F /* Motion3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Motion3.png; sourceTree = "<group>"; };
 		D4C27A5815C751AD005AE12F /* MotionThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionThreeViewController.h; sourceTree = "<group>"; };
 		D4C27A5915C751AD005AE12F /* MotionThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionThreeViewController.m; sourceTree = "<group>"; };
-		D4CB3CCE159876F200FDB9E2 /* Growth3.3-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Growth3.3-01.png"; sourceTree = "<group>"; };
 		D4CB3CD1159882A400FDB9E2 /* Types3-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Types3-02.png"; sourceTree = "<group>"; };
 		D4CB3CDA1598842800FDB9E2 /* TypesThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypesThreeViewController.h; sourceTree = "<group>"; };
 		D4CB3CDB1598842800FDB9E2 /* TypesThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypesThreeViewController.m; sourceTree = "<group>"; };
@@ -1563,7 +1563,7 @@
 				D4FB78441597C6E000BBE2EB /* GrowthThreeModel.h */,
 				D4FB78451597C6E000BBE2EB /* GrowthThreeModel.m */,
 				D4FB78471597C94100BBE2EB /* GrowthThreeText.plist */,
-				D4CB3CCE159876F200FDB9E2 /* Growth3.3-01.png */,
+				D411F8ED15D3C01900733912 /* Growth3-01.png */,
 			);
 			name = "Growth 3";
 			sourceTree = "<group>";
@@ -1654,7 +1654,6 @@
 				D49AA75815922F45002A7D7A /* Life Cycle.png in Resources */,
 				D4FB783A1597632300BBE2EB /* Habitats2.png in Resources */,
 				D4FB78481597C94100BBE2EB /* GrowthThreeText.plist in Resources */,
-				D4CB3CCF159876F200FDB9E2 /* Growth3.3-01.png in Resources */,
 				D4CB3CD2159882A400FDB9E2 /* Types3-02.png in Resources */,
 				D4CB3CDE1598A16900FDB9E2 /* _Repro3.png in Resources */,
 				D406FDFC1598AEED00410D39 /* Cycle3.png in Resources */,
@@ -1733,6 +1732,7 @@
 				D4B3188915C833D70040CEB6 /* EarthSun3.png in Resources */,
 				D4B3188F15C839B40040CEB6 /* Moon3.png in Resources */,
 				D4B3189815C845B10040CEB6 /* Beyond3.png in Resources */,
+				D411F8EE15D3C01900733912 /* Growth3-01.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

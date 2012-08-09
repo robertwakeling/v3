@@ -409,9 +409,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Growth3.3-01.png" id="IV0-NO-eas">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Growth3-01.png" id="IV0-NO-eas">
                                 <rect key="frame" x="40" y="31" width="683" height="893"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Copying" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="XJn-NP-paB">
                                 <rect key="frame" x="387" y="238" width="118" height="27"/>
@@ -477,9 +478,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Growth3.3-01.png" id="u2K-vK-1b0">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Growth3-01.png" id="u2K-vK-1b0">
                                 <rect key="frame" x="41" y="35" width="687" height="890"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" tag="5" contentMode="scaleToFill" id="t8s-7r-C04">
                                 <rect key="frame" x="595" y="224" width="54" height="50"/>
@@ -8717,7 +8719,7 @@
         <image name="Fuels3.1.png" width="1372" height="1724"/>
         <image name="GasPressure3.png" width="1388" height="1735"/>
         <image name="Grouping3.png" width="505" height="781"/>
-        <image name="Growth3.3-01.png" width="596" height="842"/>
+        <image name="Growth3-01.png" width="596" height="842"/>
         <image name="Habitats2.png" width="570" height="812"/>
         <image name="HazardSymbols.png" width="768" height="1004"/>
         <image name="Indicators3.png" width="612" height="781"/>
